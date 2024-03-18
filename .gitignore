@@ -1,6 +1,5 @@
 .envrc
 node_modules
-dist
 
 
 .pnp.*

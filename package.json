@@ -2,13 +2,8 @@
   "name": "@mitodl/open-api-axios",
   "version": "2024.3.18",
   "description": "Library for requesting data from mit-open APIs",
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "rm -rf dist && yarn build:esm && yarn build:cjs",
-    "build:esm": "tsc",
-    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
-    "prepack": "npm run build"
-  },
+  "main": "dist/cjs/index.js",
+  "scripts": {},
   "author": "MIT Open Learning Engineering <oldevops@mit.edu>",
   "files": [
     "dist",
